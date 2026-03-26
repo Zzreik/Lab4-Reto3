@@ -1,11 +1,9 @@
+function imprimir() {
+      let nombre = document.getElementById("nombre").value;
+      let id = document.getElementById("id").value;
+      let correo = document.getElementById("correo").value;
 
-let Nombre = "NUll";
-let Id = "000000";
-let Correo = "null@gmail.com";
-
-Nombre = document.getElementById("nombre");
-Id = document.getElementById("id");
-Correo = document.getElementById("correo");
-
-
-console.log{"Datos impresos Nombre: " +Nombre+ "Id:" +Id+ "Correo:" +Correo};
+      console.log("Nombre:", nombre);
+      console.log("ID:", id);
+      console.log("Correo:", correo);
+    }
